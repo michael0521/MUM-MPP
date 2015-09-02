@@ -1,0 +1,11 @@
+1. Short answer
+
+a. Imperative is concerned with "how", functional is concerned with "what"
+
+b. 
+
+c.Fuctional interface is an interface has exactly one abstract method, not counting any methods from Object.
+  A implementation of a functional interface is called a functor.
+  A closure is a functor embedded inside another class, this is capable of remembering the state of this enclosing object.
+  
+d. 

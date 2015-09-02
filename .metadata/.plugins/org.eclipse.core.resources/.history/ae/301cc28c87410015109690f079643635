@@ -1,0 +1,26 @@
+Best Programming Practices with Java 8:
+Living Life in Accord with Natural Law
+Wholeness of the Lesson
+Best practices in the world of OO programming are a way of ensuring quality in code. Code that
+adheres to best practices tends to be easier to understand, easier to maintain, more capable of
+adapting to change in the face of changing requirements and new feature requests, and more
+reusable for other projects. This simple theme is reflected in individual life. There are laws
+governing life, both physical laws and laws pertaining to all kinds of relationships and
+interactions. When life flows in accordance with the laws of nature, life is supported for success
+and fulfillment. When awareness becomes established at its deepest level, actions and behavior
+springing from this profound quality of awareness spontaneously are in accord with the laws of
+nature.
+
+Weaving the Universal into the Fabric of the Particular
+Wholeness of the Lesson
+Java generics facilitate stronger type-checking, making it possible to catch potential casting errors
+at compile time (rather than at runtime), and in many cases eliminate the need for downcasting.
+Generics also make it possible to support the most general possible API for methods that can be
+generalized. We see this in simple methods like max and sort, and also in the new Stream methods
+like filter and map. Generics involve type variables that can stand for any possible type; in this
+sense they embody a universal quality. Yet, it is by virtue of this universal quality that we are able
+to specify particular types (instead of using a raw List, we can use List<T>, which allows us to
+specify a list of Strings – List<String> -- rather than a list of Objects, as we have to do with the raw
+List). This shows how the lively presence of the universal sharpens and enhances the particulars of
+individual expressions. Likewise, contact with the universal level of intelligence sharpens and
+enhances individual traits.

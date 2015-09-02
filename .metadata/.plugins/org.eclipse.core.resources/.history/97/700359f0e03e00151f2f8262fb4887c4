@@ -1,0 +1,15 @@
+package lab11.prob4;
+
+import java.util.Collection;
+
+public class Prob4 {
+	
+	public static double sum(Collection<? extends Number> nums){
+		double s = 0.0;
+		for (Number num : nums){
+			s += num.doubleValue();
+		}
+		return s;
+	}
+
+}

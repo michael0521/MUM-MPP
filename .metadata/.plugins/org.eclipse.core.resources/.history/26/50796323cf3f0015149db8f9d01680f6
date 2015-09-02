@@ -1,0 +1,9 @@
+package lab10.prob1;
+
+public class TDDPractice {
+	
+	changeLastCharToUpper(List<String> words){
+		return null;
+	}
+
+}

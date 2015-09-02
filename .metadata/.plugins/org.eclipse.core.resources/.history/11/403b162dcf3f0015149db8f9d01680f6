@@ -1,0 +1,11 @@
+package lab10.prob1;
+
+import java.util.List;
+
+public class TDDPractice {
+	
+	public sList<String> changeLastCharToUpper(List<String> words){
+		return null;
+	}
+
+}

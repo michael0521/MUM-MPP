@@ -1,0 +1,23 @@
+package lab9.prob6;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class ListToSet {
+	public Set<String> union(List<Set<String>> sets){
+		
+		
+		return null;
+		
+	}
+	
+	public static void main(String[] args) {
+		List<Set<String>> list = new ArrayList<>();
+		
+		list.add(new HashSet<String>(){
+			add("A");
+		});
+	}
+}

@@ -1,0 +1,21 @@
+package lab11.prob5;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+
+public class Prob5 {
+	public static void main(String[] args) {
+		List<Integer> ints = Arrays.asList(1, 2, 3, 4, 5);
+		Integer i = secondSmallest(ints);
+		System.out.println(i);
+		
+	}
+	private static <T extends Comparable<? super T>> T secondSmallest(List<T> items){
+		
+		Collections.sort(items);
+		Collections.reverse(items);
+		return items.get(1);
+	}
+}

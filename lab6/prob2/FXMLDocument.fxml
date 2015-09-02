@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="CENTER" prefHeight="137.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab6.prob2.FXMLDocumentController">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <Button fx:id="countBtn" maxWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handleCountBtn" prefHeight="22.0" prefWidth="109.0" text="Count Letters">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="reverseBtn" layoutX="36.0" layoutY="99.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handleReverseBtn" prefHeight="22.0" prefWidth="109.0" text="Reverse Letters">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="removeBtn" layoutX="36.0" layoutY="110.0" maxWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handleRemoveBtn" text="Remove Duplicates">
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="137.0" prefWidth="200.0">
+         <children>
+            <Label text="Input" />
+            <TextField fx:id="inputTf" maxWidth="1.7976931348623157E308" prefHeight="22.0" prefWidth="96.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets right="30.0" />
+               </VBox.margin>
+            </TextField>
+            <Label layoutX="10.0" layoutY="61.0" text="Output" />
+            <TextField fx:id="outputTf" layoutX="10.0" layoutY="75.0" maxWidth="1.7976931348623157E308">
+               <VBox.margin>
+                  <Insets right="30.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+   </children>
+</HBox>
